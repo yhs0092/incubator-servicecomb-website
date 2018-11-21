@@ -45,8 +45,38 @@ redirect_from:
 
 > ps：在这里小小地安利一下，[Apache ServiceComb项目][ServiceComb官网]已经从Apache孵化器毕业，正式成为Apache顶级项目，这也是业界首个微服务项目在Apache孵化并毕业成为顶级项目。ServiceComb中包含的几个子项目都处于如火如荼的发展势头中，欢迎大家参与到ServiceComb社区建设中来~
 
+## 附：committer权限设置步骤
+
+当你收到Apache ServiceComb PMC的邀请邮件，这就意味着你的努力已经获得了PMC的认可，你可以选择成为committer了！建议你仔细阅读一遍邀请邮件，按照上面的指导来进行操作。这里我简要介绍一下我的操作步骤。
+
+1. 签署iCLA
+
+在成为committer之前，你需要先确保自己已经[签署iCLA][ContributorLicenseAgreements]。如果没有的话，可以先去[下载一份iCLA pdf文件][下载ICLA文件]，注意`(optional) Public name`一栏填写自己的github id。注意这份PDF文件需要签名，签名内容是`Full Name`那一栏的你填的内容。
+
+将签署好了的iCLA文件按照[iCLA文件提交说明]发送给`secretary@apache.org`，等待回信即可完成签署流程。
+
+2. 回复PMC的邀请邮件
+
+完成iCLA的签署后，就可以在Apache PMC的邀请邮件上回复了，回复邮件发给`private@servicecomb.apache.org`，你需要说明自己接受邀请，并且告诉PMC你所想要使用的Apache id。已经被人申请了的Apache ID在[这里][ApacheID]都可以查到，选择的时候需要选一个还没有被人使用的id。
+
+3. 初始化Apache帐户密码
+
+当收到Apache帐户创建成功的邮件（标题为`Welcome to the Apache Software Foundation (ASF)!`）时，你的Apache帐号就创建成功了，记得按照邮件中的提示，去设置一下自己的密码。重置密码的过程中需要使用你在签署iCLA时填写的邮箱地址。
+
+4. 设置committer权限
+
+committer账号设置完成后，你还需要设置对Github上托管的Apache ServiceComb项目的仓库权限进行设置，设置流程可以参考[这篇博客][Committer权限设置]。需要补充的一点是，在对Github账号授权时，需要开启[双因子认证][Github双因子认证介绍]，国内的同学只能选择使用双因子认证APP来做认证了。除了Github介绍页面上推荐的Authy、1Password和LastPass Authenticator，也可以使用Google的身份验证器，在APP store能够搜到，图标如下：
+
+![2FA APP]({{ site.url }}{{ site.baseurl }}/assets/images/becoming_committer/2FA_APP.png){: .align-center}
+
 [ServiceComb官网]: https://servicecomb.apache.org/cn/ "ServiceComb官网"
 [Apache issues]: https://issues.apache.org/jira/projects/SCB/issues "Apache issues"
 [订阅邮件列表]: https://servicecomb.apache.org/cn/developers/subscribe-mail-list/ "订阅邮件"
 [使用Gitter]: https://servicecomb.apache.org/cn/developers/use-gitter/ "使用Gitter"
 [ServiceComb-docs]: https://github.com/apache/servicecomb-docs "ServiceComb文档项目"
+[ContributorLicenseAgreements]: http://www.apache.org/licenses/#clas "Contributor License Agreements"
+[下载iCLA文件]: http://www.apache.org/licenses/icla.pdf "下载ICLA文件"
+[iCLA文件提交说明]: http://www.apache.org/licenses/#submitting "提交iCLA文件"
+[ApacheIDList]: http://people.apache.org/committer-index.html "Apache committer index"
+[Committer权限设置]: https://servicecomb.apache.org/cn/developers/setup-committer-rights/ "Committer权限设置"
+[Github双因子认证介绍]: https://github.com/settings/two_factor_authentication/intro "Github双因子认证"
